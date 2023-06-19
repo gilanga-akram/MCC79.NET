@@ -3,13 +3,66 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCC79.NET", "MCC79.NET\MCC79.NET.csproj", "{2CF51381-0C89-4E25-9ACF-CD6BF7DFE537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCC79.NET", "MCC79.NET\MCC79.NET.csproj", "{2CF51381-0C89-4E25-9ACF-CD6BF7DFE537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{260A7D07-950B-4DC1-A58D-6F8E50F1382F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{260A7D07-950B-4DC1-A58D-6F8E50F1382F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnection", "DatabaseConnection\DatabaseConnection.csproj", "{4C7EAA0E-C4CB-4344-8B18-6322ECFC3418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseConnection", "DatabaseConnection\DatabaseConnection.csproj", "{4C7EAA0E-C4CB-4344-8B18-6322ECFC3418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuth", "BasicAuth\BasicAuth.csproj", "{DC04FF8B-077E-4AE0-B48D-2320832080DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAuth", "BasicAuth\BasicAuth.csproj", "{DC04FF8B-077E-4AE0-B48D-2320832080DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{B41A2982-9BDB-4C02-B281-6DD51EACD91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicAuth", "BasicAuth", "{9E88E053-748D-41D0-890A-9A54AC228DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseConnection", "DatabaseConnection", "{30057221-8F1A-42DC-950D-6034340FC146}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Program.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Program.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\RefactoringFromConnection.csproj = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\RefactoringFromConnection.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{5DBB606F-83A6-4761-8AC9-362AFF7987F7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Program.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Program.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\RefactoringFromConnection.csproj = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\RefactoringFromConnection.csproj
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{912BD037-467A-42A2-ADFA-8C20A520941C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Country.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Country.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Department.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Department.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Employee.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Employee.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Histories.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Histories.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Jobs.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Jobs.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Location.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Location.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Region.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Models\Region.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Context", "Context", "{F5A3CCB8-6809-4F39-A1B4-98D07CDA797B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Contexts\Connection.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Contexts\Connection.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{BB82A620-E8A3-448E-8BB4-0D7347C95A5E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\Linq.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\Linq.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\MenuCountry.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\MenuCountry.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\MenuRegion.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\MenuRegion.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\MenuUtama.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Controllers\MenuUtama.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{3A13F793-E67E-4CCE-B883-709CD8A683E2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewCountry.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewCountry.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewDepartment.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewDepartment.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewEmployee.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewEmployee.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewGeneric.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewGeneric.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewHistories.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewHistories.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewJobs.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewJobs.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewLocation.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewLocation.cs
+		..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewRegion.cs = ..\..\Downloads\Compressed\MCC79NET-main_2\MCC79NET-main\RefactoringFromConnection\Views\ViewRegion.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +89,16 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{260A7D07-950B-4DC1-A58D-6F8E50F1382F} = {B41A2982-9BDB-4C02-B281-6DD51EACD91D}
+		{4C7EAA0E-C4CB-4344-8B18-6322ECFC3418} = {30057221-8F1A-42DC-950D-6034340FC146}
+		{DC04FF8B-077E-4AE0-B48D-2320832080DD} = {9E88E053-748D-41D0-890A-9A54AC228DC0}
+		{5DBB606F-83A6-4761-8AC9-362AFF7987F7} = {30057221-8F1A-42DC-950D-6034340FC146}
+		{912BD037-467A-42A2-ADFA-8C20A520941C} = {5DBB606F-83A6-4761-8AC9-362AFF7987F7}
+		{F5A3CCB8-6809-4F39-A1B4-98D07CDA797B} = {5DBB606F-83A6-4761-8AC9-362AFF7987F7}
+		{BB82A620-E8A3-448E-8BB4-0D7347C95A5E} = {5DBB606F-83A6-4761-8AC9-362AFF7987F7}
+		{3A13F793-E67E-4CCE-B883-709CD8A683E2} = {5DBB606F-83A6-4761-8AC9-362AFF7987F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8FA97E9-41F5-4F0D-903E-48DDC9235C4C}
